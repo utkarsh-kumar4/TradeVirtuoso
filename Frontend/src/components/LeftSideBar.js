@@ -63,9 +63,9 @@ const LeftSideBar = () => {
             <MdLogout size="30px"/>
             <h1 className='font-bold text-xl ml-2'>Logout</h1>
           </div>
-          <div>
+          <Link to="https://tradevirtuoso-oratwhaz3ejjmdyps2zmtw.streamlit.app/">
             <button className='py-2.5 my-3 border-none w-[90%] rounded-full bg-[#023e8a] hover:bg-[#323e8a] font-bold text-xl text-white'>Go to playground</button>
-          </div>
+          </Link>
         </div>
       </div>
     </div>
